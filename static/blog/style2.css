@@ -137,6 +137,13 @@ h6 {
   font-weight: 600;
 }
 
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 @media (max-width: 575px) {
 
   #header h1 {
@@ -145,12 +152,14 @@ h6 {
     font-weight: 700;
     line-height: 56px;
     color: #fff;
+    text-align: center;
   }
   
   #header h2 {
     color: #eee;
     margin-bottom: 40px;
     font-size: 1rem;
+    text-align: center;
   }
 
   #header .countdown div {
@@ -180,7 +189,7 @@ h6 {
   font-weight: 600;
   color: #fff;
   position: relative;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
 }
 
 #header .subscribe .subscribe-form {
@@ -313,15 +322,15 @@ section {
 .about .content h2 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
+  /* line-height: 0px; */
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 .about .content h3 {
   font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
+  /* line-height: 32px; */
+  font-size:1rem;
 }
 
 .about .content ul {
@@ -370,14 +379,14 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  /* font-size: 22px; */
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
-  margin-bottom: 20px;
+  margin-bottom: -14px;
   font-size: 14px;
 }
 
